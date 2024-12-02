@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="mySite.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <style>
+        #rain-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none; /* Yağmur damlaları üzerindeki etkileşimi devre dışı bırakır */
+        }
+        #isiminput {
+            border: 3px solid green;
+            background: none;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+            color: green;
+        }
+    </style>
+</head>
+<body><div id="rain-container">
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+    <div class="rain">0</div>
+    <div class="rain">1</div>
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+    <div class="rain">0</div>
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+    <div class="rain">0</div>
+    <div class="rain">1</div>
+    <div class="rain">1</div>
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+    <div class="rain">1</div>
+    <div class="rain">1</div>
+    <div class="rain">0</div>
+
+</div>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="mySite.html" class="fas fa-solid fa-bars fa-spin"></a>ANASAYFA</li>
+                <li><a href="#hakkımda">HAKKIMDA</a></li>
+                <li class="fas fa-solid fa-phone fa-bounce "><a href="#">İLETİŞİM</a>
+                    <ul class="sub-menu">
+                        <li><a href="#hakkımda">Telefon</a></li>
+                        <li><a href="#hakkımda">E-posta</a></li>                        
+                        <li><a href="#hakkımda">Ev Adresi</a></li>
+                    </ul>
+                </li>
+                <li class="fas fa-solid far fa-question-circle">SIKÇA SORULAN SORULAR
+                    <ul class="sub-menu">
+                        <li><a href="#sss1">Dijital güvenlik konusunda danışmanlık almak isteyen biri olarak, hangi adımları takip etmeliyim?</a></li>
+                        <li><a href="#sss2">İletişime geçmek için hangi yöntemleri tercih edebilirim?</a></li>
+                        <li><a href="#sss3">Verdiğiniz hizmetlerin fiyatlandırma politikası nedir?</a></li>
+                        <li><a href="#sss4">Sizinle çalışmak için ne kadar süre önceden randevu almalıyım?</a></li>
+                        <li><a href="#sss5">Hangi alanlarda uzmanlık sahibisiniz ve deneyimleriniz nelerdir?</a></li>
+                    </ul>
+                
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <section class="profile" styles="font-family: fantasy;">
+                <img class="resim1" src="siberguvenlik.png" alt="kişisel fotografım">
+                <div class="profile-text">
+                    <h1><strong><label for="isim" ></label></strong></h1>
+                    <input id="isiminput" type="text" name="isim" placeholder="$ Merhaba! DİLBER ÖZER">                    
+                    <p style="color: red;">Cyber Security |Network Security Uzmanı</p>
+                    <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com" class="fab fa-twitter"></a> <!--Twitterin yeni logosunu eklemeye calıstım olmadı bir turlu-->
+                    <a href="https://google.com" class="fab fa-google"></a>
+                    <a href="https://linkedin.com" class="fab fa-linkedin"></a>
+                    <a href="https://youtube.com" class="fab fa-youtube"></a>
+                    <a href="https://instagram.com" class="fab fa-instagram"></a>
+                </div>
+            </section>
+            <section style="margin-top: 100px; color: white; padding: 60px;">
+                <h2 class="bilgi" id="hakkımda">Hakkımda</h2>
+                <p>Merhaba, ben Dilber. 3 yıldır Cyber Security ve Network Security Uzmanıyım <br>2026 yılın'da İzmir Bakırçay Üniversitesi Bilgisayar Mühendisliği Bölümünden mezun oldum. <br> İleri düzeyde Python ve ağ güvenliği konusunda deneyime sahibim <br> ve 
+                    bu alanda mezun olmadığım dönemde yarışmalar <br> düzenledim ve yarışmalara katıldım. <br>
+                    Hackathon bunlardan biri. Bir önceki iş yerim Google Zurich - Bradschenkestrasse / İsviçreydi orda ağ güvenliği olsun Bug Bounty konularında deneyim edindim. 
+                    Ayrıca sosyal hayatımda online oyunlar ve basketbol oyynamaya mutlaka vakit ayırırım. 
+                    Benimle iletişime geçmek için. <br> <br><br>
+                    <a href="mailto:dilberozer2096@gmail.com" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" >E-Posta:  dilberozer2096@gmail.com</a> <br>
+                    Teşekkür ederim!</p>
+                    <p>Telefon numaram: +905527198426</p>
+                    <p class="fas fa-location-arrow"> 
+                        Adres: 1234 Elm Sokağı, Apt. 5B <br>
+                        6789 Posta Kodu <br>
+                        Texas, Turkey <br></p>
+                
+                <h1 >SIKÇA SORULAN SORULAR</h2>
+                <h2 id="sss1"><u>Dijital güvenlik konusunda danışmanlık almak isteyen biri olarak, hangi adımları takip etmeliyim?</u></h2>
+                <p>Uzmanlık alanlarım arasında ağ güvenliği, siber güvenlik denetimleri ve veri koruma yönetimi bulunmaktadır. 10 yıldan fazla sektör deneyimim mevcuttur.</p>
+                <h2 id="sss2"><u>İletişime geçmek için hangi yöntemleri tercih edebilirim?</u></h2>
+                <p>Bana e-posta veya telefon aracılığıyla ulaşabilirsiniz. Ayrıca sosyal medya platformlarında da aktif olarak iletişimdeyim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor atque earum sapiente enim officiis odio, provident voluptates aut illum ipsum, quo dignissimos natus reiciendis deserunt commodi blanditiis veniam quos quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, cupiditate ducimus? Nobis maiores quis accusamus. Perferendis quam, nostrum nam autem et vero provident dicta, excepturi sint adipisci enim doloribus? Vero.
+                Laboriosam illum tempore dolorum, enim nihil molestias harum adipisci voluptates, reprehenderit minus corrupti deserunt similique dolorem aliquid alias? Cumque odit molestiae doloribus deserunt quas ea itaque dolore aspernatur voluptate impedit.
+                Laudantium quaerat, odio consectetur nostrum a sint commodi harum dolore quas odit obcaecati iure ipsum. Asperiores dignissimos nesciunt nisi assumenda earum quibusdam veniam a magnam dolorem fugiat, quae obcaecati cum!</p>
+                <h2 id="sss3"><u>Verdiğiniz hizmetlerin fiyatlandırma politikası nedir?</u></h2>
+                <p>Hizmetlerim için esnek bir fiyatlandırma politikası benimsiyorum. Detaylı bilgi almak için lütfen iletişime geçin. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quam animi aperiam natus libero officiis. Ipsam, enim mollitia! Veniam, et vero accusantium culpa laboriosam error magnam quos dolorum consequuntur! Est?
+                Deleniti illo commodi minima explicabo quaerat itaque earum similique nostrum, porro cupiditate obcaecati dolorem perspiciatis quod natus totam neque esse repellat veritatis. Nobis maxime animi sit laudantium, sint mollitia molestias.
+                Sit cumque vitae labore expedita vero quisquam fuga hic quos nihil, praesentium maiores fugiat laborum alias? Dignissimos, distinctio! Iusto autem repellendus adipisci harum hic culpa sequi at sed quod sint!
+                Ratione rerum ea, magni, placeat sunt nobis natus excepturi quibusdam veritatis explicabo at quisquam quod, assumenda facilis ipsum? Neque, sunt. Tempore beatae adipisci suscipit a, expedita distinctio temporibus? Atque, omnis!
+                Corporis minima facere illo. Repellendus voluptate fuga ex quos quam id minima sunt nulla nihil numquam, delectus atque commodi non ratione dolorum nobis voluptas alias optio dolor cum eos vero.
+                Temporibus nesciunt quis natus. Accusantium dicta doloribus eum iste mollitia ipsam nemo magnam nobis soluta quia sequi saepe ipsa corporis, officia sed corrupti aut adipisci perspiciatis cupiditate eius eaque ullam.
+                Velit deserunt magnam blanditiis praesentium distinctio deleniti ratione totam, at similique, iure eligendi dignissimos, officiis officia. Adipisci voluptates hic error enim ipsa distinctio pariatur quod veniam nobis, nihil atque incidunt!
+                Minus earum ea numquam laborum labore impedit at, voluptatibus, veritatis, possimus sed nesciunt rerum cum sunt! Numquam saepe voluptatibus voluptates? Minus impedit porro quod magni praesentium voluptatem quos deserunt atque!
+                Consequatur ab enim nobis magni temporibus, placeat labore, laborum excepturi expedita tempore consequuntur! Adipisci facilis quas non temporibus provident sunt, labore aut necessitatibus at quia, nihil modi atque optio veniam.
+                Ipsa labore minima laudantium beatae at perspiciatis sit, quo fugiat velit excepturi adipisci possimus natus atque? Similique natus libero consectetur voluptates aliquid, sit esse temporibus nam quos. Eveniet, voluptatem aspernatur?</p>
+                <h2 id="sss4"><u>Sizinle çalışmak için ne kadar süre önceden randevu almalıyım?</u></h2>
+                <p>Randevu almak için mümkün olduğunca erken bildirimde bulunmanız tercih edilir. Ancak acil durumlarda da elimden geleni yapmaya hazırım. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod vitae, aspernatur, quam optio hic porro laborum quis commodi voluptatem alias consequuntur eum ab officia necessitatibus reiciendis eveniet deserunt error!
+                Amet cupiditate corrupti aperiam saepe quia voluptatem nulla sed quasi doloribus? Amet maiores delectus praesentium iure magnam corporis nam modi corrupti neque optio, quidem ab fugit magni sint animi facilis!
+                Cumque quibusdam labore voluptatem velit delectus inventore necessitatibus? Sequi hic accusantium qui iusto labore, obcaecati repellat neque aliquam consectetur minus beatae enim omnis ex nam dolor? Magni eaque obcaecati amet!
+                Fugit iusto non architecto asperiores doloremque nobis praesentium voluptas aspernatur perspiciatis fugiat quo dicta inventore, velit, accusantium odio expedita voluptatibus suscipit. Iste iusto numquam vero animi eveniet! Dolore, quidem fugiat.
+                Sequi sint in ducimus atque, consequuntur, beatae et temporibus ullam deserunt cumque obcaecati quam ex illo magnam, tempore fugiat perferendis ipsam! Aperiam minima adipisci aut vitae recusandae, pariatur tempora quae?
+                Autem, adipisci minus? Molestiae eaque saepe quo, accusantium inventore natus quia, adipisci officia cumque fugit rem impedit. Eos rerum tempora architecto quam, quidem vero, possimus voluptates iste fugiat temporibus laudantium.
+                Officia quo enim quas odio natus ratione quibusdam ab minima tenetur cumque consequuntur, ex saepe deserunt illum odit nam totam porro mollitia. Quos porro omnis dolor. Nostrum excepturi repellat hic?
+                Nemo expedita est commodi sapiente et, vero repellat optio nostrum quasi aliquid impedit libero a magnam sed minus minima cumque distinctio asperiores itaque voluptates. Excepturi saepe rem magnam cumque dicta!
+                Amet facilis officia inventore quae vitae a neque saepe quasi, officiis distinctio ad obcaecati. Labore quam, sapiente molestias error facilis beatae cupiditate illo nulla? Exercitationem pariatur ut nobis vel voluptates?
+                Sed at nam blanditiis, consequatur sequi magnam voluptatum eius natus atque cumque laboriosam ea explicabo veritatis quod dolores ad dolorum tenetur necessitatibus magni perferendis dolorem quas sint quo sit. Voluptatem.
+                Quam, explicabo sapiente dolor nostrum fuga inventore accusamus fugiat sit ea sed ducimus velit! Voluptatum quidem fugit fugiat dicta cupiditate, omnis unde voluptates impedit in, nihil officia ab, dolore quis.
+                Voluptates alias obcaecati veniam optio, esse ea deleniti, magni quia et sed cupiditate vel deserunt laborum, est iusto quod modi nobis cumque natus? Consectetur eaque ipsum obcaecati, quisquam sit vitae!</p>
+                <h2 id="sss5"><u>Hangi alanlarda uzmanlık sahibisiniz ve deneyimleriniz nelerdir?</u></h2>
+                <p>Dijital güvenlik konusunda danışmanlık almak istiyorsanız, ilk adım olarak mevcut güvenlik durumunuzu analiz etmemiz gerekecek. Daha sonra öneriler ve çözüm önerileri sunabilirim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure corporis nulla reprehenderit hic quas, consequuntur ipsam quos aperiam delectus voluptate. Sequi minus totam accusantium accusamus ipsa expedita officia quisquam saepe.
+                Cupiditate, provident perspiciatis vero aperiam pariatur maiores illo? Facere labore et, odio incidunt, beatae fugit laborum odit esse, magnam cum quisquam sit facilis cupiditate quas exercitationem magni reprehenderit! Eligendi, inventore.
+                Temporibus, amet? Odit illo ullam nesciunt molestias asperiores natus! Reprehenderit ex hic voluptatibus autem soluta repudiandae voluptatum et, mollitia expedita in ducimus facere maxime, distinctio itaque unde odit quo! Mollitia.
+                Placeat voluptas unde nemo? Magni assumenda, molestiae exercitationem a veritatis consequatur, qui earum voluptas, ullam enim vero eaque voluptatem atque laudantium rerum odit itaque suscipit impedit amet nulla. Incidunt, nobis?
+                Doloremque amet sit magnam consequuntur cum, aperiam, explicabo perspiciatis deserunt accusamus consequatur ex maiores iusto beatae, error placeat! Voluptatem suscipit enim iusto. Aut, dolores harum. Architecto amet temporibus incidunt harum?
+                Minus perferendis praesentium veniam aut eius fugiat rerum distinctio beatae inventore cum! Sint cupiditate ullam magnam enim unde error soluta ipsum consequatur tempora aut perspiciatis rem non accusantium, incidunt provident.
+                Dolores, consectetur cupiditate? Eos reiciendis explicabo libero sed tempore animi nesciunt labore distinctio rem? Repudiandae quas sint, minima soluta, dignissimos culpa, tenetur sunt pariatur commodi veritatis voluptatem corrupti non est.
+                Necessitatibus nihil libero expedita possimus labore impedit illo dolore voluptatem quidem assumenda dolores quia alias beatae accusamus earum asperiores, iure nobis esse unde in tenetur nesciunt sint. Soluta, quaerat nam.
+                Maxime corrupti eius debitis ducimus, dicta obcaecati nulla aperiam reiciendis quaerat error veritatis, at est velit dolor natus blanditiis iusto non sed doloribus cumque id possimus illum ullam. Consequatur, animi!
+                Dicta pariatur sed nisi, quasi, tempora adipisci, sint eveniet similique dolore eos deserunt laudantium quis debitis beatae! Magnam itaque corporis aspernatur illum dicta ducimus in! Cupiditate magnam accusantium minima sequi?
+                Laboriosam quae atque fuga similique explicabo ab rerum quaerat aspernatur delectus molestiae quasi veniam libero quo quas accusantium eius laborum rem sequi magnam odio quia amet aperiam, dicta praesentium. Iure!
+                Labore hic libero magnam, perspiciatis error ipsa natus aperiam architecto iusto cum facilis atque voluptate vel quisquam cupiditate eaque molestiae corporis fugiat eos ex iure debitis dicta. Obcaecati, dolores vel?
+                Quae, reiciendis accusantium vel excepturi magnam odit dolorum officiis vitae sequi nulla! Optio soluta deserunt blanditiis sed vero nesciunt sequi pariatur, totam ipsam laboriosam aut tempora corrupti impedit numquam! Eaque.
+                Veritatis nemo deleniti quos suscipit esse excepturi sint, corrupti non sit quaerat quisquam aperiam praesentium nostrum ad exercitationem neque odit eos rem asperiores culpa perspiciatis minima repellendus. Harum, soluta iste.
+                Perspiciatis consectetur optio voluptate repudiandae deserunt ipsa dolore omnis pariatur minima, quibusdam ut delectus velit autem doloremque quisquam molestiae vel nisi sit sed eum voluptatum! Earum dolores saepe perferendis sint.</p>    
+            </section>
+    </main>
+    <footer>
+        <p>© 2024 Dilber Özer. Tüm hakları saklıdır. <u><a href="https://www.youtube.com/shorts/VtH3-a7xD-c?feature=share">DON'T CLİCK ME!</a></u> </p>
+    </footer>
+    
+</body>
+</html>
